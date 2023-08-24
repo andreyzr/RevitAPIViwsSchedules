@@ -18,7 +18,7 @@
                Margin="5"/>
         <ComboBox ItemsSource="{Binding Categories}"
                   SelectedItem="{Binding SelectedCategory}"
-                  Name="Name"
+                  DisplayMemberPath="Name"
                   Margin="5"/>
         <Button Content="Скрыть категорию"
                 Command="{Binding HideCommand}"
